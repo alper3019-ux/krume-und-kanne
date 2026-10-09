@@ -12,4 +12,5 @@ Erste veröffentlichte Fassung.
 - OpenStreetMap erst nach Klick (vorher keine Anfrage an Dritte).
 - Impressum, Datenschutz, Bildrechte, Allergene, 404 – Platzhalter als fiktiv markiert, rechtliche Prüfung als offen gekennzeichnet.
 - Performance: Stempel dreht sich mit dem Scrollen statt in Dauerschleife, Hero-Zeichnung verkürzt, Körnung als 1,3-KB-WebP statt SVG-Filter, kein `backdrop-filter`.
+- Performance: `content-visibility: auto` für Karte, Mittagstisch, Vorbestellung und Geschichte (weniger Layout-Arbeit beim Laden).
 - Barrierefreiheit: Demo-Hinweis als eigene Landmark (`aside`), axe 0 Verstöße auf allen Seiten.
