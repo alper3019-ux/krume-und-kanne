@@ -1,0 +1,16 @@
+<svg class="illu draw" viewBox="0 0 340 280" aria-hidden="true" focusable="false">
+  <path class="f f--sage" d="M30 170c0-80 70-130 150-124 90 8 140 70 128 140-12 70-80 90-150 82-80-8-128-30-128-98Z"/>
+  <path class="f f--paper" transform="translate(6 6)" d="M110 118h110l-30 62h-50Z"/>
+  <path class="f f--rose" d="M118 214c0 34 10 44 48 44s48-10 48-44Z"/>
+  <path class="ln" pathLength="1" d="M108 118h114l-32 62h-50Z"/>
+  <path class="ln" pathLength="1" d="M100 118h130M146 180v14h38v-14"/>
+  <path class="ln" pathLength="1" d="M118 214c0 34 10 44 48 44s48-10 48-44"/>
+  <ellipse class="ln" pathLength="1" cx="166" cy="213" rx="48" ry="8"/>
+  <path class="ln" pathLength="1" d="M214 226c26-2 26 28 0 28"/>
+  <path class="ln" pathLength="1" d="M165 194v14"/>
+  <path class="ln" pathLength="1" d="M250 60c40 0 64 16 64 44v30c0 14-10 20-24 20h-40c-14 0-24-6-24-20v-30c0-28 4-44 24-44Z"/>
+  <path class="ln" pathLength="1" d="M228 86c-50-6-84 2-96 30"/>
+  <path class="ln" pathLength="1" d="M314 82c18 0 22 40 0 44"/>
+  <path class="ln" pathLength="1" d="M244 46h28M258 46v14"/>
+  <path class="ln" pathLength="1" d="M132 118c-2 6-2 10 0 14"/>
+</svg>

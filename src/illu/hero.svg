@@ -1,0 +1,47 @@
+<svg class="illu illu--hero" viewBox="0 0 560 540" aria-hidden="true" focusable="false">
+  <path class="f f--butter" d="M92 250C70 150 160 70 270 66c118-4 214 62 228 170 14 104-36 214-150 252-120 40-230-14-252-118-4-20-8-80-4-120Z"/>
+  <g class="obj">
+    <path class="ln" pathLength="1" d="M486 70c-14 70-26 140-36 214"/>
+    <path class="ln" pathLength="1" d="M482 92c-16-8-22-24-18-38 14 6 20 22 18 38ZM484 92c14-10 18-26 12-40-12 8-16 24-12 40ZM477 130c-16-8-22-24-18-38 14 6 20 22 18 38ZM479 130c14-10 18-26 12-40-12 8-16 24-12 40ZM471 168c-16-8-22-24-18-38 14 6 20 22 18 38ZM473 168c14-10 18-26 12-40-12 8-16 24-12 40Z"/>
+    <path class="ln" pathLength="1" d="M466 230c18-18 40-22 58-14M460 260c-14-22-36-32-56-28"/>
+    </g>
+  <g class="obj">
+    <path class="f f--terra" transform="translate(9 7)" d="M190 165c-2 85-40 165-38 245 1 22 18 30 38 30h120c20 0 37-8 38-30 2-80-36-160-38-245Z"/>
+    <path class="ln" pathLength="1" d="M190 165c-2 85-40 165-38 245 1 22 18 30 38 30h120c20 0 37-8 38-30 2-80-36-160-38-245"/>
+    <path class="ln" pathLength="1" d="M184 166c40 12 92 12 132 0"/>
+    <path class="ln" pathLength="1" d="M186 163c2-34 126-34 128 0"/>
+    <path class="ln" pathLength="1" d="M250 135v-6"/>
+    <circle class="ln" pathLength="1" cx="250" cy="121" r="9"/>
+    <path class="ln" pathLength="1" d="M182 262c-30-10-52-36-68-64l-15-16c-3-3 1-7 5-5l17 12c20 20 40 34 64 40"/>
+    <path class="ln" pathLength="1" d="M312 200c48-4 80 30 76 90-3 55-26 95-46 110"/>
+    <path class="ln" pathLength="1" d="M317 226c32 3 47 30 44 66-2 38-14 68-26 80"/>
+    <path class="ln" pathLength="1" d="M166 300c22-9 42 9 64 0s42-9 62 0 30 6 44 0"/>
+    <path class="ln" pathLength="1" d="M162 330c4 1 6 1 8 0M196 336c3 1 6 1 8 0M232 330c3 1 6 1 8 0M268 336c3 1 6 1 8 0M304 330c3 1 6 1 8 0"/>
+    </g>
+  <g class="obj">
+    <path class="f f--paper" d="M60 472c0-70 80-100 170-97 90 5 120 55 115 95-45 18-235 20-285 2Z"/>
+    <path class="f f--wheat" transform="translate(7 6)" d="M60 472c0-70 80-100 170-97 90 5 120 55 115 95-45 18-235 20-285 2Z"/>
+    <path class="ln" pathLength="1" d="M60 472c0-70 80-100 170-97 90 5 120 55 115 95-45 18-235 20-285 2Z"/>
+    <path class="ln" pathLength="1" d="M104 420c32-20 76-26 112-14"/>
+    <path class="ln" pathLength="1" d="M160 400c40-16 96-14 132 10"/>
+    <path class="ln" pathLength="1" d="M118 446c46-14 120-16 176-2"/>
+    <path class="ln" pathLength="1" d="M96 470c2-4 6-5 9-3M140 476c2-3 5-4 8-2M300 470c2-3 5-4 8-2"/>
+    </g>
+  <g class="obj">
+    <path class="f f--paper" d="M385 382c0 58 10 70 55 70s55-12 55-70Z"/>
+    <path class="f f--rose" transform="translate(7 6)" d="M385 382c0 58 10 70 55 70s55-12 55-70Z"/>
+    <ellipse class="f f--coffee" cx="440" cy="383" rx="47" ry="7"/>
+    <path class="ln" pathLength="1" d="M385 382c0 58 10 70 55 70s55-12 55-70"/>
+    <ellipse class="ln" pathLength="1" cx="440" cy="381" rx="55" ry="10"/>
+    <path class="ln" pathLength="1" d="M494 396c32-4 34 36-2 37"/>
+    <path class="ln" pathLength="1" d="M350 458c10 14 170 14 180 0 4-8-20-14-90-14s-94 6-90 14Z"/>
+    </g>
+  <g class="obj">
+    <path class="ln" pathLength="1" d="M70 150v16M62 158h16M520 330v12M514 336h12M110 100l6 6M116 100l-6 6"/>
+  </g>
+  <g class="steam">
+    <path class="ln" pathLength="1" d="M424 360c-14-22 14-36 0-60-12-20 8-32 4-50"/>
+    <path class="ln" pathLength="1" d="M452 362c-12-18 12-30 0-50-10-16 6-26 2-40"/>
+    <path class="ln" pathLength="1" d="M96 168c-14-18 10-34-4-54-10-14 4-26 0-40"/>
+  </g>
+</svg>

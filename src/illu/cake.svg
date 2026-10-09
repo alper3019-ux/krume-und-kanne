@@ -1,0 +1,10 @@
+<svg class="illu draw" viewBox="0 0 320 260" aria-hidden="true" focusable="false">
+  <path class="f f--rose" d="M30 150c-4-70 56-118 130-116 76 2 128 50 124 116-4 64-64 98-130 96-70-2-120-32-124-96Z"/>
+  <path class="f f--paper" transform="translate(7 6)" d="M80 110h160v60H80z"/>
+  <path class="f f--butter" d="M80 110c26 12 54-8 80 4s54-8 80 0v20H80Z"/>
+  <path class="ln" pathLength="1" d="M80 110h160v60H80z"/>
+  <path class="ln" pathLength="1" d="M80 130c26 10 54-8 80 2s54-8 80-2"/>
+  <path class="ln" pathLength="1" d="M60 178h200M160 178v50M120 232h80"/>
+  <path class="ln" pathLength="1" d="M100 110v-16M100 90c-4-6 0-10 0-14 4 4 4 8 0 14ZM160 110v-16M160 90c-4-6 0-10 0-14 4 4 4 8 0 14ZM220 110v-16M220 90c-4-6 0-10 0-14 4 4 4 8 0 14Z"/>
+  <path class="ln" pathLength="1" d="M92 150h6M128 156h6M168 148h6M206 156h6"/>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "name": "krume-und-kanne",
+  "version": "1.0.0",
+  "description": "Krume & Kanne – fiktive Demo-Website für ein Café mit Bäckerei in Leipzig (Vite, Vanilla JS/CSS, eigene SVG-Illustrationen)",
+  "private": true,
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "vite --port 47110 --strictPort",
+    "build": "vite build",
+    "photos": "node scripts/process-photos.mjs",
+    "audit": "node scripts/audit.mjs",
+    "test": "node scripts/interaction-test.mjs",
+    "screenshots": "node scripts/screenshots.mjs"
+  },
+  "devDependencies": {
+    "@fontsource-variable/caveat": "^5.3.0",
+    "@fontsource-variable/figtree": "^5.3.0",
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "axe-core": "^4.14.0",
+    "chrome-launcher": "^1.2.2",
+    "lighthouse": "^13.5.0",
+    "playwright-core": "1.64",
+    "sharp": "^0.35.5",
+    "vite": "^8.3.4"
+  }
+}

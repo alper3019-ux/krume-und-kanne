@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Krume &amp; Kanne – Café &amp; Bäckerei in Leipzig (Demo)</title>
+  <meta name="description" content="Fiktives Demo-Café in Leipzig-Plagwitz: Sauerteigbrot, Frühstück, Mittagstisch und Kuchen zum Vorbestellen. Speisekarte mit Allergenfilter, Öffnungszeiten und Anfahrt.">
+  <link rel="canonical" href="{{SITE}}">
+  <meta name="theme-color" content="#F4ECDF">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:title" content="Krume &amp; Kanne – Café &amp; Bäckerei (Demo)">
+  <meta property="og:description" content="Handgezeichnetes Café-Konzept mit Allergenfilter, Mittagstisch und Kuchen-Vorbestellung. Fiktives Projekt.">
+  <meta property="og:url" content="{{SITE}}">
+  <meta property="og:image" content="{{SITE}}og.png">
+  <link rel="icon" href="{{BASE}}favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{{BASE}}favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="{{BASE}}apple-touch-icon.png">
+  <link rel="stylesheet" href="/src/css/main.css">
+  <script type="module" src="/src/js/main.js"></script>
+</head>
+<body>
+<!--HEADER-->
+<main id="inhalt">
+
+  <section class="hero" aria-labelledby="hero-h">
+    <div class="hero__text">
+      <p class="eyebrow">Café &amp; Bäckerei · Leipzig-Plagwitz</p>
+      <h1 id="hero-h" class="hero__h">Gutes Brot braucht Zeit<span class="hero__dot">.</span></h1>
+      <p class="hero__note hand" aria-hidden="true">… und guter Kaffee auch
+        <svg viewBox="0 0 120 60" class="hero__arrow"><path class="ln" pathLength="1" d="M6 10c30 2 60 14 80 36M86 46l-14-2M86 46l-2-14"/></svg>
+      </p>
+      <p class="hero__lead">Sauerteig mit 36 Stunden Ruhe, Frühstück bis mittags, ein Mittagstisch, der jede Woche wechselt, und Kuchen vom Blech, auch zum Vorbestellen.</p>
+      <div class="hero__cta">
+        <a class="btn btn--ink" href="#karte">Zur Speisekarte</a>
+        <a class="btn btn--line" href="#vorbestellen">Kuchen vorbestellen</a>
+      </div>
+      <dl class="hero__facts">
+        <div><dt>Heute</dt><dd data-today-hours>Di–So geöffnet</dd></div>
+        <div><dt>Adresse</dt><dd>Krumengasse 7, Leipzig <small>(fiktiv)</small></dd></div>
+      </dl>
+    </div>
+    <div class="hero__art">
+      <!--ILLU:hero-->
+      <aside class="ticket" aria-labelledby="ticket-h">
+        <p class="ticket__kw" data-kw>Diese Woche</p>
+        <h2 id="ticket-h" class="ticket__h">Mittagstisch</h2>
+        <p class="ticket__today" data-lunch-today>Di–Fr ab 11:30 Uhr</p>
+        <a class="ticket__link" href="#mittag">Ganze Woche ansehen <span aria-hidden="true">→</span></a>
+      </aside>
+      <div class="stamp" aria-hidden="true">
+        <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="58" class="stamp__bg"/><path class="stamp__loaf" d="M44 68c0-9 7-13 16-13s16 4 16 13c-5 3-27 3-32 0ZM50 62c4-3 9-3 13-1M57 59c4-2 9-1 12 2"/></svg>
+        <svg viewBox="0 0 120 120" class="stamp__ring-svg"><circle cx="60" cy="60" r="31" class="stamp__ring"/><defs><path id="stamp-c" d="M60 60m-45 0a45 45 0 1 1 90 0a45 45 0 1 1-90 0"/></defs><text><textPath href="#stamp-c" textLength="276">frisch aus dem Ofen · ab 7:30 Uhr ·</textPath></text></svg>
+      </div>
+    </div>
+  </section>
+
+  <!--ILLU:wave-->
+
+  <section class="section menu" id="karte" aria-labelledby="karte-h">
+    <div class="section__head">
+      <p class="eyebrow">01 · Speisekarte</p>
+      <h2 id="karte-h" class="h2">Die Karte, ohne PDF</h2>
+      <p class="section__lead">Alles mit Allergen-Angabe direkt am Gericht. Filtern Sie, was Sie nicht essen dürfen oder wollen; die Karte zeigt dann nur, was passt.</p>
+    </div>
+    <div class="menu__layout">
+      <aside class="menu__side">
+        <form class="filter" id="filter" aria-labelledby="filter-h">
+          <h3 id="filter-h" class="filter__h">Filter</h3>
+          <!--FILTER-->
+          <p class="filter__count" role="status" data-count>Alle 23 Gerichte</p>
+          <button type="reset" class="link-btn">Filter zurücksetzen</button>
+        </form>
+        <nav class="menu__jump" aria-label="Kategorien der Speisekarte">
+          <a href="#karte-fruehstueck">Frühstück</a><a href="#karte-brot">Brot &amp; Gebäck</a><a href="#karte-mittag">Mittag</a><a href="#karte-kuchen">Kuchen</a><a href="#karte-getraenke">Getränke</a>
+        </nav>
+      </aside>
+      <div class="menu__card">
+        <p class="al-note"><strong>Allergene:</strong> Die Buchstaben (A–N) stehen für die 14 Hauptallergene nach Anhang II LMIV, <a href="#legende">Legende unten</a>. In unserer Backstube werden alle 14 verarbeitet, Spuren sind deshalb nie ganz auszuschließen. Fragen Sie gern am Tresen. <a href="{{BASE}}allergene.html">Komplette Tabelle</a></p>
+        <!--MENU-->
+        <details class="legend-wrap" id="legende">
+          <summary>Legende: Allergene A–N</summary>
+          <!--LEGEND-->
+        </details>
+        <p class="price-note">Alle Preise in Euro inkl. MwSt., erfunden für diese Demo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section lunch" id="mittag" aria-labelledby="mittag-h">
+    <div class="lunch__art"><!--ILLU:bowl--></div>
+    <div class="lunch__body">
+      <p class="eyebrow">02 · Mittagstisch</p>
+      <h2 id="mittag-h" class="h2">Ein Gericht pro Tag. <span class="hand hand--inline">Mehr braucht's nicht.</span></h2>
+      <p class="section__lead">Dienstag bis Freitag, 11:30 bis 14:30 Uhr oder bis es alle ist. <span data-kw-inline></span></p>
+      <ol class="lunch__list" role="list">
+        <!--LUNCH-->
+      </ol>
+    </div>
+  </section>
+
+  <section class="section order" id="vorbestellen" aria-labelledby="vb-h">
+    <div class="section__head">
+      <p class="eyebrow">03 · Kuchen vorbestellen</p>
+      <h2 id="vb-h" class="h2">Ein ganzes Blech für Ihren Tisch</h2>
+      <p class="section__lead">Mindestens zwei Tage vorher bestellen, im Café abholen, vor Ort bezahlen. Die Allergene sehen Sie vor dem Absenden.</p>
+    </div>
+    <form class="order__form form" id="order-form" novalidate data-form="Kuchen-Vorbestellung">
+      <p class="demo-note" role="note"><strong>Demo:</strong> Dieses Formular sendet nichts. Sie sehen am Ende nur eine Zusammenfassung.</p>
+      <fieldset class="cakes">
+        <legend class="form__legend">1. Kuchen wählen</legend>
+        <div class="cakes__grid"><!--CAKES--></div>
+        <p class="field__error" id="err-kuchen" hidden>Bitte wählen Sie einen Kuchen.</p>
+      </fieldset>
+      <div class="order__cols">
+        <fieldset>
+          <legend class="form__legend">2. Menge &amp; Abholung</legend>
+          <div class="field">
+            <span class="field__label" id="size-l">Größe</span>
+            <div class="seg" role="radiogroup" aria-labelledby="size-l">
+              <label><input type="radio" name="groesse" value="ganz" checked> <span>ganz</span></label>
+              <label><input type="radio" name="groesse" value="halb"> <span>halb</span></label>
+            </div>
+          </div>
+          <div class="field">
+            <label class="field__label" for="o-anzahl">Anzahl</label>
+            <input id="o-anzahl" name="anzahl" type="number" min="1" max="6" value="1" inputmode="numeric" required aria-describedby="o-anzahl-h">
+            <p class="field__hint" id="o-anzahl-h">Bis 6 Stück; mehr bitte über Catering.</p>
+          </div>
+          <div class="field">
+            <label class="field__label" for="o-datum">Abholtag</label>
+            <input id="o-datum" name="datum" type="date" required aria-describedby="o-datum-h o-datum-e">
+            <p class="field__hint" id="o-datum-h">Frühestens übermorgen, nicht montags (Ruhetag).</p>
+            <p class="field__error" id="o-datum-e" hidden></p>
+          </div>
+          <div class="field">
+            <label class="field__label" for="o-zeit">Uhrzeit</label>
+            <select id="o-zeit" name="zeit" required>
+              <option value="">Bitte wählen</option>
+              <option>8:00–10:00</option><option>10:00–12:00</option><option>12:00–14:00</option><option>14:00–16:00</option>
+            </select>
+            <p class="field__error" id="o-zeit-e" hidden>Bitte wählen Sie ein Zeitfenster.</p>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend class="form__legend">3. Kontakt</legend>
+          <div class="field">
+            <label class="field__label" for="o-name">Name</label>
+            <input id="o-name" name="name" autocomplete="name" required aria-describedby="o-name-e">
+            <p class="field__error" id="o-name-e" hidden>Bitte geben Sie Ihren Namen an.</p>
+          </div>
+          <div class="field">
+            <label class="field__label" for="o-tel">Telefon <span class="opt">für Rückfragen</span></label>
+            <input id="o-tel" name="telefon" type="tel" autocomplete="tel" required aria-describedby="o-tel-e">
+            <p class="field__error" id="o-tel-e" hidden>Bitte geben Sie eine Telefonnummer an.</p>
+          </div>
+          <div class="field">
+            <label class="field__label" for="o-notiz">Notiz <span class="opt">optional</span></label>
+            <textarea id="o-notiz" name="notiz" rows="2"></textarea>
+          </div>
+        </fieldset>
+        <div class="summary" aria-live="polite">
+          <h3 class="summary__h">Ihre Vorbestellung</h3>
+          <p class="summary__line" data-sum-line>Noch kein Kuchen gewählt.</p>
+          <p class="summary__al" data-sum-al hidden></p>
+          <p class="summary__price"><span>Summe</span> <strong data-sum-price>–</strong></p>
+          <p class="summary__small">Bezahlung bei Abholung. Preise fiktiv, inkl. MwSt.</p>
+          <button class="btn btn--ink btn--block" type="submit">Vorbestellung prüfen (Demo)</button>
+        </div>
+      </div>
+      <div class="form__result" data-result tabindex="-1" hidden></div>
+    </form>
+  </section>
+
+  <section class="section story" id="geschichte" aria-labelledby="gs-h">
+    <div class="section__head section__head--center">
+      <p class="eyebrow">04 · Unsere Geschichte <small>(erfunden)</small></p>
+      <h2 id="gs-h" class="h2">Drei Dinge, die wir jeden Tag gleich machen</h2>
+    </div>
+    <ol class="story__list" role="list">
+      <li class="story__item">
+        <div class="story__art"><!--ILLU:oven--></div>
+        <div class="story__text">
+          <p class="story__time hand">4:30 Uhr</p>
+          <h3 class="h3">Der Ofen ist zuerst wach</h3>
+          <p>Bevor die Tür aufgeht, laufen zwei Stunden Backen. Brote zuerst, dann Croissants, zum Schluss die Bleche. Was abends übrig ist, geht an eine Tafel in der Nachbarschaft.</p>
+        </div>
+      </li>
+      <li class="story__item story__item--flip">
+        <div class="story__art"><!--ILLU:jar--></div>
+        <div class="story__text">
+          <p class="story__time hand">seit dem ersten Tag</p>
+          <h3 class="h3">Ein Sauerteig namens „Krume“</h3>
+          <p>Er bekommt zweimal am Tag Mehl und Wasser, hat einen Namen und einen eigenen Platz im Regal. Ohne ihn gäbe es kein Brot und keinen Café-Namen.</p>
+          <figure class="photo photo--tilt">
+            <picture>
+              <source type="image/avif" srcset="{{BASE}}photos/brot-400.avif 400w, {{BASE}}photos/brot-640.avif 640w, {{BASE}}photos/brot-900.avif 900w" sizes="(min-width: 900px) 280px, 60vw">
+              <img src="{{BASE}}photos/brot-640.webp" srcset="{{BASE}}photos/brot-400.webp 400w, {{BASE}}photos/brot-640.webp 640w, {{BASE}}photos/brot-900.webp 900w" sizes="(min-width: 900px) 280px, 60vw" width="640" height="800" alt="Ein runder Sauerteiglaib mit aufgerissener Kruste kühlt auf einem Gitter aus." loading="lazy" decoding="async">
+            </picture>
+            <figcaption>Musterfoto, nicht aus dem Café. Foto: Nutrition, Food Safety &amp; Health, CC0</figcaption>
+          </figure>
+        </div>
+      </li>
+      <li class="story__item">
+        <div class="story__art"><!--ILLU:pour--></div>
+        <div class="story__text">
+          <p class="story__time hand">jede Tasse</p>
+          <h3 class="h3">Die Kanne bleibt auf dem Tisch</h3>
+          <p>Filterkaffee wird von Hand gebrüht und kommt in der Kanne. Nachschenken kostet nichts, Sitzenbleiben auch nicht.</p>
+          <figure class="photo photo--tilt-r">
+            <picture>
+              <source type="image/avif" srcset="{{BASE}}photos/kaffee-400.avif 400w, {{BASE}}photos/kaffee-640.avif 640w, {{BASE}}photos/kaffee-900.avif 900w" sizes="(min-width: 900px) 280px, 60vw">
+              <img src="{{BASE}}photos/kaffee-640.webp" srcset="{{BASE}}photos/kaffee-400.webp 400w, {{BASE}}photos/kaffee-640.webp 640w, {{BASE}}photos/kaffee-900.webp 900w" sizes="(min-width: 900px) 280px, 60vw" width="640" height="800" alt="Eine rote Tasse mit Latte Art auf einem dunklen Tisch, daneben ein Milchkännchen." loading="lazy" decoding="async">
+            </picture>
+            <figcaption>Musterfoto, nicht aus dem Café. Foto: karl chor (Unsplash), CC0</figcaption>
+          </figure>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="section visit" id="anfahrt" aria-labelledby="an-h">
+    <div class="section__head">
+      <p class="eyebrow">05 · Anfahrt &amp; Öffnungszeiten</p>
+      <h2 id="an-h" class="h2">So finden Sie uns</h2>
+    </div>
+    <div class="visit__grid">
+      <div class="visit__info">
+        <!--HOURS-->
+        <address class="visit__addr">Krume &amp; Kanne<br>Krumengasse 7 <small>(fiktiv)</small><br>04229 Leipzig</address>
+        <ul class="visit__how" role="list">
+          <li><strong>Tram:</strong> Haltestelle 3 Minuten zu Fuß (Beispiel)</li>
+          <li><strong>Rad:</strong> Bügel direkt vor der Tür</li>
+          <li><strong>Barrierefrei:</strong> stufenloser Eingang, Toilette ebenerdig (Beispielangabe)</li>
+        </ul>
+      </div>
+      <div class="visit__map">
+        <div class="map" data-map>
+          <!--ILLU:map-->
+          <div class="map__consent">
+            <p>Eine interaktive Karte wird erst nach Ihrem Klick von OpenStreetMap geladen. Dabei wird Ihre IP-Adresse an die OpenStreetMap Foundation übertragen. <a href="{{BASE}}datenschutz.html#karte">Datenschutz</a></p>
+            <button type="button" class="btn btn--line" data-map-load>Karte von OpenStreetMap laden</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section catering" id="catering" aria-labelledby="ca-h">
+    <div class="catering__intro">
+      <p class="eyebrow">06 · Catering</p>
+      <h2 id="ca-h" class="h2">Frühstück fürs Büro, Kuchen für die Feier</h2>
+      <p class="section__lead">Ab 10 Personen. Wir melden uns mit einem Angebot, die Allergene stehen wie auf der Karte bei jedem Posten.</p>
+      <!--ILLU:cake-->
+    </div>
+    <form class="form catering__form" id="catering-form" novalidate data-form="Catering-Anfrage">
+      <p class="demo-note" role="note"><strong>Demo:</strong> Diese Anfrage wird nicht gesendet und nicht gespeichert.</p>
+      <div class="field">
+        <label class="field__label" for="c-anlass">Anlass</label>
+        <select id="c-anlass" name="anlass" required aria-describedby="c-anlass-e">
+          <option value="">Bitte wählen</option><option>Büro-Frühstück</option><option>Geburtstag oder Feier</option><option>Kaffee &amp; Kuchen nach einer Trauerfeier</option><option>Etwas anderes</option>
+        </select>
+        <p class="field__error" id="c-anlass-e" hidden>Bitte wählen Sie einen Anlass.</p>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label class="field__label" for="c-datum">Datum</label>
+          <input id="c-datum" name="datum" type="date" required aria-describedby="c-datum-e">
+          <p class="field__error" id="c-datum-e" hidden>Bitte wählen Sie ein Datum in der Zukunft.</p>
+        </div>
+        <div class="field">
+          <label class="field__label" for="c-personen">Personen</label>
+          <input id="c-personen" name="personen" type="number" min="10" max="120" inputmode="numeric" required aria-describedby="c-personen-e">
+          <p class="field__error" id="c-personen-e" hidden>Bitte 10 bis 120 Personen angeben.</p>
+        </div>
+      </div>
+      <fieldset class="field">
+        <legend class="field__label">Ernährung <span class="opt">optional</span></legend>
+        <div class="chips">
+          <label class="chip"><input type="checkbox" name="ernaehrung" value="vegetarisch"><span>vegetarisch</span></label>
+          <label class="chip"><input type="checkbox" name="ernaehrung" value="vegan"><span>vegan</span></label>
+          <label class="chip"><input type="checkbox" name="ernaehrung" value="ohne Gluten"><span>ohne glutenhaltige Zutaten</span></label>
+          <label class="chip"><input type="checkbox" name="ernaehrung" value="ohne Nüsse"><span>ohne Nüsse</span></label>
+        </div>
+      </fieldset>
+      <div class="field">
+        <label class="field__label" for="c-nachricht">Ihre Wünsche</label>
+        <textarea id="c-nachricht" name="nachricht" rows="3"></textarea>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label class="field__label" for="c-name">Name</label>
+          <input id="c-name" name="name" autocomplete="name" required aria-describedby="c-name-e">
+          <p class="field__error" id="c-name-e" hidden>Bitte geben Sie Ihren Namen an.</p>
+        </div>
+        <div class="field">
+          <label class="field__label" for="c-mail">E-Mail</label>
+          <input id="c-mail" name="email" type="email" autocomplete="email" required aria-describedby="c-mail-e">
+          <p class="field__error" id="c-mail-e" hidden>Bitte geben Sie eine gültige E-Mail-Adresse an.</p>
+        </div>
+      </div>
+      <p class="form__privacy">Ihre Angaben würden nur zur Bearbeitung der Anfrage verwendet. <a href="{{BASE}}datenschutz.html">Datenschutz</a></p>
+      <button class="btn btn--ink" type="submit">Anfrage prüfen (Demo)</button>
+      <div class="form__result" data-result tabindex="-1" hidden></div>
+    </form>
+  </section>
+</main>
+<!--FOOTER-->
+</body>
+</html>

@@ -1,0 +1,13 @@
+<svg class="illu draw" viewBox="0 0 360 280" aria-hidden="true" focusable="false">
+  <path class="f f--butter" d="M30 250c-6-60 0-150 40-190 50-46 170-50 220-6 40 36 48 130 40 196Z"/>
+  <path class="f f--terra" transform="translate(8 6)" d="M108 236v-70c0-36 32-58 72-58s72 22 72 58v70Z"/>
+  <path class="ln" pathLength="1" d="M40 250V130C40 66 104 40 180 40s140 26 140 90v120"/>
+  <path class="ln" pathLength="1" d="M108 236v-70c0-36 32-58 72-58s72 22 72 58v70"/>
+  <path class="ln" pathLength="1" d="M26 252h308"/>
+  <path class="ln" pathLength="1" d="M60 96h34M70 120h26M266 96h34M262 120h28M52 150h40M268 150h40M50 184h38M272 184h40M52 216h34M276 216h32"/>
+  <path class="ln" pathLength="1" d="M150 40V16h60v24"/>
+  <path class="ln" pathLength="1" d="M168 8c-6-10 6-14 0-26M192 8c-6-10 6-14 0-26"/>
+  <path class="ln" pathLength="1" d="M138 224c0-22 14-30 24-30s20 8 20 30ZM186 224c0-18 12-26 22-26s20 8 20 26Z"/>
+  <path class="ln" pathLength="1" d="M146 210c4-4 10-5 14-2M194 212c4-4 10-5 14-2"/>
+  <path class="ln" pathLength="1" d="M128 236c-2-10 4-16 8-24 2 8 6 14 4 24M234 236c-2-10 4-16 8-24 2 8 6 14 4 24"/>
+</svg>

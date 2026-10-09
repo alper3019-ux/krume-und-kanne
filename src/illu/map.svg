@@ -1,0 +1,17 @@
+<svg class="illu draw map-illu" viewBox="0 0 520 360" role="img" aria-labelledby="map-t map-d" focusable="false">
+  <title id="map-t">Handgezeichnete Lageskizze (fiktiv)</title>
+  <desc id="map-d">Skizze: Das Café liegt an der fiktiven Krumengasse, zwei Straßen nördlich eines Kanals, nahe einer Straßenbahnhaltestelle. Keine echte Karte.</desc>
+  <path class="f f--sage-lite" d="M0 250c80-20 140 20 230 6s170-40 290-10v34c-120-30-200-4-290 10S80 262 0 284Z"/>
+  <path class="ln" pathLength="1" d="M0 250c80-20 140 20 230 6s170-40 290-10M0 284c80-22 140 18 230 4s170-40 290-8"/>
+  <path class="ln" pathLength="1" d="M40 0c10 120 20 240 30 360M0 120c160-10 340-6 520 6M0 190c180 4 340 0 520-8M300 0c-10 100-6 260 6 360"/>
+  <path class="ln ln--dash" pathLength="1" d="M0 160c170-8 340-4 520 4"/>
+  <path class="ln" pathLength="1" d="M190 120c4 26 6 50 6 70"/>
+  <path class="f f--terra" d="M226 142l7 14 15 2-11 10 3 15-14-7-13 7 3-15-11-10 15-2Z"/>
+  <path class="ln" pathLength="1" d="M226 142l7 14 15 2-11 10 3 15-14-7-13 7 3-15-11-10 15-2Z"/>
+  <rect class="ln" pathLength="1" x="356" y="146" width="22" height="22" rx="4"/>
+  <text class="illu-label" x="254" y="146">Krume &amp; Kanne</text>
+  <text class="illu-label illu-label--s" x="384" y="186">Tram</text>
+  <text class="illu-label illu-label--s" x="96" y="114">Krumengasse</text>
+  <text class="illu-label illu-label--s" x="380" y="300">Kanal</text>
+  <text class="illu-label illu-label--s" x="20" y="340">Skizze, fiktive Lage</text>
+</svg>

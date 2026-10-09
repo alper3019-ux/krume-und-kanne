@@ -1,0 +1,13 @@
+<svg class="illu draw" viewBox="0 0 320 280" aria-hidden="true" focusable="false">
+  <path class="f f--rose" d="M40 150c0-70 60-120 130-114 80 6 120 70 110 140-10 64-70 96-130 90-64-6-110-50-110-116Z"/>
+  <path class="f f--paper" transform="translate(8 6)" d="M100 150h120v90c0 14-8 20-22 20h-76c-14 0-22-6-22-20Z"/>
+  <path class="f f--wheat" d="M104 150c20-10 40 8 56 0s36-10 56 0v86c0 12-6 18-18 18h-76c-12 0-18-6-18-18Z"/>
+  <path class="ln" pathLength="1" d="M108 76c-10 10-14 24-14 40v120c0 16 10 24 26 24h80c16 0 26-8 26-24V116c0-16-4-30-14-40"/>
+  <path class="ln" pathLength="1" d="M102 54h116v22H102z"/>
+  <path class="ln" pathLength="1" d="M104 150c20-10 40 8 56 0s36-10 56 0"/>
+  <path class="ln" pathLength="1" d="M94 170h132"/>
+  <circle class="ln" pathLength="1" cx="132" cy="196" r="5"/><circle class="ln" pathLength="1" cx="170" cy="216" r="7"/><circle class="ln" pathLength="1" cx="196" cy="186" r="4"/><circle class="ln" pathLength="1" cx="146" cy="234" r="3"/><circle class="ln" pathLength="1" cx="204" cy="236" r="4"/>
+  <path class="ln" pathLength="1" d="M128 96h64v34h-64z"/>
+  <text x="160" y="119" text-anchor="middle" class="illu-label">Krume</text>
+  <path class="ln" pathLength="1" d="M160 40c0-10 6-16 0-26M140 44c-4-8 2-12-2-20M180 44c-4-8 2-12-2-20"/>
+</svg>
