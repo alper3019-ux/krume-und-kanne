@@ -1,5 +1,9 @@
 # Changelog
 
+## 15.10.2026 – Zurückgenommen: Inline-Skript für Klasse `js`
+
+Live-Nachmessung nach dem Deploy (je 5 Läufe): Die CLS-Ausreißer 0,307 sind weg (0 von 5 statt 2 von 5), Perf mobil 83 → 85. Im Median ist aber TBT mobil schlechter (250 → 325 ms), weil jetzt jeder Lauf den langen Task von 604–928 ms in `main-*.js` nach dem FCP hat, und LCP mobil ebenfalls (2595 → 2605 ms). Nach der Regel „nichts darf schlechter werden“ per Revert-Commit zurückgenommen. Der Befund zur Ursache bleibt gültig, siehe unten im Revert-Commit.
+
 ## 1.0.0 – 09.10.2026
 
 Erste veröffentlichte Fassung.
