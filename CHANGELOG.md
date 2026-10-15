@@ -5,6 +5,16 @@
 - Miguel hat am 15.10.2026 ausdrücklich freigegeben, die Änderung trotz der knappen, vermutlich zufälligen Abweichung live zu stellen. Nach dem Revert lag die Live-TBT mobil ebenfalls bei 325 ms, die Abweichung kam also nicht von der Änderung.
 - Änderung: `<script>document.documentElement.classList.add('js')</script>` im `<head>` aller 6 Seiten. Die mobile Navigation ist damit schon vor dem ersten Paint eingeklappt, und der Inhalt springt nicht mehr (vorher CLS 0,307 in 2 von 5 Live-Läufen).
 - Quellen: https://web.dev/articles/optimize-cls · https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
+- Live-Messung nach Deploy (gh-pages bdac573), Lighthouse 13, Median aus 5 Läufen, axe-core 4.14, Playwright:
+
+| live | Perf | A11y | BP | SEO | LCP | CLS | TBT | axe | Konsolenfehler |
+|---|---|---|---|---|---|---|---|---|---|
+| mobil vorher (15.10., 5 Läufe) | 83 | 100 | 100 | 100 | 2595 ms | 0 (2× 0,307) | 250 ms | 0 | 0 |
+| mobil nachher | 84 | 100 | 100 | 100 | 2695 ms | 0 (max. 0,008) | 250 ms | 0 | 0 |
+| Desktop vorher | 99 | 100 | 100 | 100 | 672 ms | 0,002 | 15 ms | 0 | 0 |
+| Desktop nachher | 100 | 100 | 100 | 100 | 589 ms | 0,002 | 15 ms | 0 | 0 |
+
+  Funktionstest Menü live (390×844, Startseite und Impressum): Navigation anfangs eingeklappt, öffnet per Klick (`aria-expanded=true`), schließt mit Escape, 0 Konsolenfehler. LCP mobil +100 ms liegt genau an der Abbruchgrenze, nicht darüber (Einzelläufe 1846–2771 ms).
 - Abbruchregel laut Freigabe: zurücknehmen nur bei Defekt (Konsolenfehler, axe-Verstoß, Funktion) oder bei deutlicher Verschlechterung (Perf > 3 Punkte, LCP/TBT > 100 ms).
 
 ## 15.10.2026 – Zurückgenommen: Inline-Skript für Klasse `js`
