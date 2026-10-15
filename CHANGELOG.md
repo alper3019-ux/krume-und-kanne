@@ -2,7 +2,7 @@
 
 ## 15.10.2026 – Zurückgenommen: Inline-Skript für Klasse `js`
 
-Live-Nachmessung nach dem Deploy (je 5 Läufe): Die CLS-Ausreißer 0,307 sind weg (0 von 5 statt 2 von 5), Perf mobil 83 → 85. Im Median ist aber TBT mobil schlechter (250 → 325 ms), weil jetzt jeder Lauf den langen Task von 604–928 ms in `main-*.js` nach dem FCP hat, und LCP mobil ebenfalls (2595 → 2605 ms). Nach der Regel „nichts darf schlechter werden“ per Revert-Commit zurückgenommen. Der Befund zur Ursache bleibt gültig, siehe unten im Revert-Commit.
+Live-Nachmessung nach dem Deploy (je 5 Läufe): Die CLS-Ausreißer 0,307 sind weg (0 von 5 statt 2 von 5), Perf mobil 83 → 85. Im Median ist aber TBT mobil schlechter (250 → 325 ms), weil jetzt jeder Lauf den langen Task von 604–928 ms in `main-*.js` nach dem FCP hat, und LCP mobil ebenfalls (2595 → 2605 ms). Nach der Regel „nichts darf schlechter werden“ per Revert-Commit zurückgenommen. Befund zur Ursache, weiter gültig: Die Regel `.js .nav-toggle + .nav:not(.is-open) { display: none; }` klappt die mobile Navigation erst ein, wenn das Modul `main.js` läuft. Lief es nach dem ersten Paint, sprang `main#inhalt` (CLS 0,307). Der Desktop-CLS 0,135 vom 14.10. war am 15.10. nicht reproduzierbar (live 5/5 und lokal 10/10 ≤ 0,011). Lokale Messwerte und Methode stehen in Commit d96ab24.
 
 ## 1.0.0 – 09.10.2026
 
